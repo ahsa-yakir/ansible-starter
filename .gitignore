@@ -1,0 +1,32 @@
+# Ansible-specific
+*.retry
+*.log
+*.out
+
+# SSH keys or secrets (be careful — don't ever commit these!)
+*.pem
+*.key
+*.crt
+*.env
+vault_pass.txt
+
+# Python-related (if using Ansible with Python virtualenv or requirements)
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.env/
+.venv/
+venv/
+
+# Editor/IDE artifacts
+*.swp
+*.bak
+*.tmp
+*.orig
+*~
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
